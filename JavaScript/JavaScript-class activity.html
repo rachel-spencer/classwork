@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Function</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+      // FUNCTIONS
+      // ================================================================================
+
+      // Create a Function called "adder" that take three arguments (x, y, z).
+      // The function should add the arguments together, and log the result to the console.
+
+      var numbers = [1,2,3];
+    
+
+      console.log = (numbers[0] + numbers[1] + numbers[2]);
+
+      function adder(x,y,z){
+        var sum =x +y+z;
+        console.log(sum); 
+      }
+
+      function adderWithReturn(x,y,z) {
+        var sum =x+y+z;
+        return sum;
+      }
+
+      var sum = adderWithReturn(1,2,3);
+      console.log(sum);
+
+      console.log("----------")
+
+
+    </script>
+
+    </body>
+    </html>
